@@ -8,7 +8,7 @@ import { useCartStore } from "@/store/cart.store";
 const tabs = [
   { href: "/", label: "Accueil", icon: "mdi:home-outline" },
   { href: "/cart", label: "Panier", icon: "mdi:cart-outline" },
-  { href: "/orders", label: "Commandes", icon: "mdi:package-variant" },
+  { href: "/order", label: "Commandes", icon: "mdi:package-variant" },
 ];
 
 export default function BottomTabs() {
